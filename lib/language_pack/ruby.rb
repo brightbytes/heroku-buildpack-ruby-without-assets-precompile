@@ -104,7 +104,8 @@ WARNING
         post_bundler
         create_database_yml
         install_binaries
-        run_assets_precompile_rake_task
+        # disable rails assets precompile, we will precompile the assets locally
+        # run_assets_precompile_rake_task
       end
       config_detect
       best_practice_warnings
