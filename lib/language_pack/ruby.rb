@@ -100,7 +100,8 @@ WARNING
       post_bundler
       create_database_yml
       install_binaries
-      run_assets_precompile_rake_task
+      # disable asset precompilation - the clarity deploy scripts compile the assets out of band
+      # run_assets_precompile_rake_task
     end
     config_detect
     best_practice_warnings
